@@ -10,6 +10,10 @@ def welcome_message(name:str) -> str:
 message = welcome_message("griffindoeff@calpoly.edu")
 print(message)
 
+
+
+
+
 def smallest(n:float, m:float) -> float:
     if n < m:
         return n             # For which calls below is this statement evaluated? → when n (first value) is less than m (second value)
